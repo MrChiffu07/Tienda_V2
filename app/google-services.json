@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "86629745804",
+    "firebase_url": "https://tiendauniver-default-rtdb.firebaseio.com",
+    "project_id": "tiendauniver",
+    "storage_bucket": "tiendauniver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86629745804:android:4c944c3b63b00ba8de27a9",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbqrjLRiUVoQTLcNOvhKLg2fNrtWWZM94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86629745804:android:f08d3f5d2c076698de27a9",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbqrjLRiUVoQTLcNOvhKLg2fNrtWWZM94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86629745804:android:c37005cb22a18b53de27a9",
+        "android_client_info": {
+          "package_name": "com.example.myapplication20"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbqrjLRiUVoQTLcNOvhKLg2fNrtWWZM94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
