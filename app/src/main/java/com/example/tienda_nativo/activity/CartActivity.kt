@@ -1,5 +1,6 @@
 package com.example.tienda_nativo.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
@@ -7,9 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.myapplication20.R
-import com.example.myapplication20.databinding.ActivityCartBinding
-import com.example.myapplication20.databinding.ViewholderCartBinding
+import com.example.tienda_nativo.R
+import com.example.tienda_nativo.databinding.ActivityCartBinding
+import com.example.tienda_nativo.databinding.ViewholderCartBinding
 import com.example.project1762.Helper.ChangeNumberItemsListener
 import com.example.tienda_nativo.Adapter.CartAdapter
 import com.example.tienda_nativo.ManagmentCart
@@ -64,6 +65,9 @@ class CartActivity : BaseActivity() {
         }
     }
     private fun setVariable() {
-       binding.backBtn.setOnClickListener{ finish()}
+        binding.backBtn1.setOnClickListener { finish() }
+
+
+
     }
 }

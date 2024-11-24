@@ -8,17 +8,18 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.request.RequestOptions
-import com.example.myapplication20.databinding.ViewholderCartBinding
+import com.example.tienda_nativo.databinding.ViewholderCartBinding
 import com.example.project1762.Helper.ChangeNumberItemsListener
 import com.example.tienda_nativo.ManagmentCart
 import com.example.tienda_nativo.Model.itemModel
 
-class CartAdapter (private val listItemSelected:ArrayList<itemModel>,
+class CartAdapter (
+
+    private val listItemSelected:ArrayList<itemModel>,
     context:Context,
     var changeNumberItemsListener: ChangeNumberItemsListener?=null
-
     ):RecyclerView.Adapter<CartAdapter.ViewHolder>(){
-    class ViewHolder  (val binding: ViewholderCartBinding):RecyclerView.ViewHolder(binding.root){
+    class ViewHolder(val binding: ViewholderCartBinding) : RecyclerView.ViewHolder(binding.root){
 
     }
 

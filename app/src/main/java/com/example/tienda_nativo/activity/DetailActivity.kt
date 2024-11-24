@@ -10,8 +10,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myapplication20.R
-import com.example.myapplication20.databinding.ActivityDetailBinding
+import com.example.tienda_nativo.databinding.ActivityDetailBinding
+
 import com.example.tienda_nativo.Adapter.ColorAdapter
 import com.example.tienda_nativo.Adapter.SizeAdapter
 import com.example.tienda_nativo.Adapter.SliderAdapter
@@ -22,7 +22,7 @@ import java.util.ResourceBundle.getBundle
 
 class DetailActivity : BaseActivity() {
 
-    private lateinit var binding:ActivityDetailBinding
+    private lateinit var binding: ActivityDetailBinding
     private lateinit var item:itemModel
     private var numerOrder=1
     private lateinit var managmentCart: ManagmentCart

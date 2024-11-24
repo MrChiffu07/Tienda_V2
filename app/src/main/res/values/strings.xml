@@ -11,4 +11,7 @@
     <string name="invalid_username">No es un nombre de usuario válido</string>
     <string name="invalid_password">La contraseña debe tener más de 5 caracteres</string>
     <string name="login_failed">"Error de inicio de sesión"</string>
+    <string name="prefs_file">com.example.tienda_nativo.PREFERENCE_FILE_KEY</string>
+    <string name="default_web_client_id">TU_CLIENT_ID</string>
+
 </resources>

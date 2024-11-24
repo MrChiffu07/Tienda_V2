@@ -3,7 +3,7 @@ package com.example.tienda_nativo.activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.myapplication20.databinding.ActivityIntroBinding;
+import com.example.tienda_nativo.databinding.ActivityIntroBinding;
 
 public class IntroActivity extends BaseActivity{
 

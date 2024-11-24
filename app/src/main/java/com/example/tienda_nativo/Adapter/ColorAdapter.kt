@@ -9,9 +9,9 @@ import android.widget.ImageView
 import androidx.core.widget.ImageViewCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.myapplication20.R
-import com.example.myapplication20.databinding.ViewholderBrandBinding
-import com.example.myapplication20.databinding.ViewholderColorBinding
+import com.example.tienda_nativo.R
+import com.example.tienda_nativo.databinding.ViewholderBrandBinding
+import com.example.tienda_nativo.databinding.ViewholderColorBinding
 
 
 class ColorAdapter (val items:MutableList<String>):

@@ -1,5 +1,6 @@
 package com.example.tienda_nativo.activity
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -9,7 +10,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
-import com.example.myapplication20.databinding.ActivityMainBinding
+import com.example.tienda_nativo.databinding.ActivityMainBinding
+
 import com.example.tienda_nativo.Adapter.BrandAdapter
 import com.example.tienda_nativo.Adapter.PopularAdapter
 import com.example.tienda_nativo.Model.SliderModel
@@ -40,7 +42,7 @@ class MainActivity : BaseActivity() {
 
     private fun UbiBottomMenu (){
         binding.ubiBtn.setOnClickListener{startActivity(Intent(this@MainActivity,
-            UbicacionActivity::class.java))}
+            MapsActivity::class.java))}
     }
 
     private fun initBanner() {

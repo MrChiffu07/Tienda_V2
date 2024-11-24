@@ -10,7 +10,7 @@ import androidx.viewpager2.widget.ViewPager2
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.CenterInside
 import com.bumptech.glide.request.RequestOptions
-import com.example.myapplication20.R
+import com.example.tienda_nativo.R
 import com.example.tienda_nativo.Model.SliderModel
 
 class SliderAdapter(

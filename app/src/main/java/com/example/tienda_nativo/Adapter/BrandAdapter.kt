@@ -1,5 +1,6 @@
 package com.example.tienda_nativo.Adapter
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.res.ColorStateList
 import android.view.LayoutInflater
@@ -9,8 +10,8 @@ import android.widget.ImageView
 import androidx.core.widget.ImageViewCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.myapplication20.R
-import com.example.myapplication20.databinding.ViewholderBrandBinding
+import com.example.tienda_nativo.R
+import com.example.tienda_nativo.databinding.ViewholderBrandBinding
 import com.example.tienda_nativo.Model.BrandModel
 
 class BrandAdapter (val items:MutableList<BrandModel>):
@@ -30,7 +31,7 @@ class BrandAdapter (val items:MutableList<BrandModel>):
         return Viewholder(binding)
     }
 
-    override fun onBindViewHolder(holder: BrandAdapter.Viewholder, position: Int) {
+    override fun onBindViewHolder(holder: BrandAdapter.Viewholder, @SuppressLint("RecyclerView") position: Int) {
        val item=items[position]
         holder.binding.title.text=item.title
         Glide.with(holder.itemView.context)

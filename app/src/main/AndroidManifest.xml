@@ -22,7 +22,18 @@
         android:theme="@style/Theme.Tienda_Nativo"
         tools:targetApi="31">
         <activity
-            android:name="com.example.tienda_nativo.activity.UbicacionActivity"
+            android:name="com.example.tienda_nativo.activity.MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAt6F9vjA73o8uykdbZUxgKEiObyaBXnpA" />
+
+        <activity
+            android:name="com.example.tienda_nativo.activity.MapsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tienda_nativo.activity.DatosActivity"
             android:exported="false" />
         <activity
             android:name="com.example.tienda_nativo.activity.CartActivity"
@@ -31,6 +42,7 @@
             android:name="com.example.tienda_nativo.activity.RegisterActivity"
             android:exported="false" />
         <activity
+
             android:name="com.example.tienda_nativo.activity.LoginActivity"
             android:exported="true">
             <intent-filter>
@@ -48,9 +60,7 @@
         <activity
             android:name="com.example.tienda_nativo.activity.IntroActivity"
             android:exported="true" />
-        <activity
-            android:name="com.example.tienda_nativo.activity.MainActivity"
-            android:exported="true" />
+
     </application>
 
 </manifest>
