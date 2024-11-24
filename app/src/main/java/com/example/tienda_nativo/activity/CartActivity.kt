@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.tienda_nativo.R
 import com.example.tienda_nativo.databinding.ActivityCartBinding
 import com.example.tienda_nativo.databinding.ViewholderCartBinding
-import com.example.project1762.Helper.ChangeNumberItemsListener
+import com.example.tienda_nativo.Helper.ChangeNumberItemsListener
 import com.example.tienda_nativo.Adapter.CartAdapter
 import com.example.tienda_nativo.ManagmentCart
 

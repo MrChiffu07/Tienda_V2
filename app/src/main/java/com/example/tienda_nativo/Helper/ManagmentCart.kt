@@ -2,7 +2,7 @@ package com.example.tienda_nativo
 
 import android.content.Context
 import android.widget.Toast
-import com.example.project1762.Helper.ChangeNumberItemsListener
+import com.example.tienda_nativo.Helper.ChangeNumberItemsListener
 import com.example.tienda_nativo.Helper.TinyDB
 import com.example.tienda_nativo.Model.itemModel
 

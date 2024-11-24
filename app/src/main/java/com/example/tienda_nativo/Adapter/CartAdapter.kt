@@ -9,7 +9,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.request.RequestOptions
 import com.example.tienda_nativo.databinding.ViewholderCartBinding
-import com.example.project1762.Helper.ChangeNumberItemsListener
+import com.example.tienda_nativo.Helper.ChangeNumberItemsListener
 import com.example.tienda_nativo.ManagmentCart
 import com.example.tienda_nativo.Model.itemModel
 
